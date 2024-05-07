@@ -1,0 +1,137 @@
+Input:
+
+public class JavaBeanLab {
+	public static String multiplicatio(int l,int m) {
+		return "Multiplication of "+l+" and "+ m+ " is "+ l*m ;
+	}
+	public static String grades() {
+		int grade=90;
+		if (grade>80)
+		{
+			return "Congratulations on getting grade A+";
+		}
+		else {
+			return "You need to work hard";
+		}
+		
+	}
+	public static void pattern(char a) {
+		for (int i=1;i<=5;i++) {
+			for(int j=1;j<=5;j++) {
+				System.out.print(
+						a +" ");
+			}System.out.println();
+		}
+	}
+	
+	public static int add() {
+		System.out.println("int type method");
+		int a=10;
+		int b=20;
+		int sum=a+b;
+		return sum;
+	}
+	
+	public static boolean guessMyAge() {
+		System.out.println("boolean type method");
+		int age=2;
+	    boolean results = age==24? true:false;
+		return results;
+	}
+	public static double areaOfCircle() {
+		System.out.println("double type method");
+		int rad=7;
+		double pi=3.14; 
+		double area=pi*rad*rad;
+		return area;
+		
+	}
+	public static char alphabets() {
+		System.out.println("char type method");
+		return 'R';
+	}
+	public static float div() {
+		System.out.println("float type method");
+		float p=7.8f,q=6.8f,div;
+		div= p/q;
+		return div;
+	}
+	public static long areaOfSquare() {
+		System.out.println("long type method");
+		long s=7;
+		
+		return s*s;
+	}
+	
+	public static short subtraction() {
+		System.out.println("short type method");
+		short y=8, z=7;
+		return (short) (y-z);
+	}
+	public static byte byteMethod()
+	{System.out.println("byte type method");
+		byte k=9,l=6,h=(byte) (k-l); 
+		return h;
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Q. Create a method multiplication which take 2 arguments ,
+		//return the result and print the final answer
+		System.out.println("-------------------------Q1----------------------------------------------------");
+		System.out.println(JavaBeanLab.multiplicatio(2,3));
+		//Q. Create a method of type string , check if grades is greater than 80 return 
+		//"Congratulations on getting grade A+", else return "You need to work hard"
+		System.out.println("-------------------------Q2----------------------------------------------------");
+		System.out.println(JavaBeanLab.grades());
+		//Q. Create a method of type void , make any pattern in it by taking as argument
+		//and then print it.
+		System.out.println("-------------------------Q3----------------------------------------------------");
+		JavaBeanLab.pattern('*');
+		//Q. Create a method of all primitive type in java, call the methods and print 
+		//the final output.
+		System.out.println("-------------------------Q4----------------------------------------------------");
+		System.out.println(JavaBeanLab.add());
+		System.out.println(JavaBeanLab.guessMyAge());
+		System.out.println(JavaBeanLab.areaOfCircle());
+		System.out.println(JavaBeanLab.alphabets());
+		System.out.println(JavaBeanLab.div());
+		System.out.println(JavaBeanLab.areaOfSquare());
+		System.out.println(JavaBeanLab.subtraction());
+		System.out.println(JavaBeanLab.byteMethod());
+
+		
+
+	}
+
+}
+
+Output:
+-------------------------Q1----------------------------------------------------
+Multiplication of 2 and 3 is 6
+-------------------------Q2----------------------------------------------------
+Congratulations on getting grade A+
+-------------------------Q3----------------------------------------------------
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+-------------------------Q4----------------------------------------------------
+int type method
+30
+boolean type method
+false
+double type method
+153.86
+char type method
+R
+float type method
+1.1470588
+long type method
+49
+short type method
+1
+byte type method
+3
