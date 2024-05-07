@@ -1,0 +1,162 @@
+package basicmodule2;
+public class Practise {
+
+                 1st Programm
+	public static void main(String[] args) {
+		 int month=12;
+		 
+		 switch (month) {
+         case 1:
+             System.out.println("January");
+             break;
+         case 2:
+             System.out.println("February");
+             break;
+         case 3:
+             System.out.println("March");
+             break;
+         case 4:
+             System.out.println("April");
+             break;
+         case 5:
+             System.out.println("May");
+             break;
+         case 6:
+             System.out.println("June");
+             break;
+         case 7:
+             System.out.println("July");
+             break;
+         case 8:
+             System.out.println("August");
+             break;
+         case 9:
+             System.out.println("September");
+             break;
+         case 10:
+             System.out.println("October");
+             break;
+         case 11:
+             System.out.println("November");
+             break;
+         case 12:
+             System.out.println("December");
+             break;
+         default:
+             System.out.println("Invalid month number");
+             break;
+         }       
+                 1st Output
+                 December
+		 
+		 2nd Program
+		 int N = 42;
+	       
+	        for (int i = 1; i <= 10; i++) {
+	            System.out.println(N + " * " + i + " = "
+	                               + N * i);
+	        }
+	        
+	        2nd Output
+                 42 * 1 = 42
+                 42 * 2 = 84
+                 42 * 3 = 126
+                 42 * 4 = 168
+                 42 * 5 = 210
+                 42 * 6 = 252
+                 42 * 7 = 294
+                 42 * 8 = 336
+                 42 * 9 = 378
+                 42 * 10 = 420
+                   
+                3rd Program
+	               int marks = 75; 
+	                
+	                if (marks >= 90) {
+	                    System.out.println("Grade A");
+	                } else if (marks >= 80) {
+	                    System.out.println("Grade B");
+	                } else if (marks >= 70) {
+	                    System.out.println("Grade C");
+	                } else if (marks >= 60) {
+	                    System.out.println("Grade D");
+	                } else {
+	                    System.out.println("Grade F");
+	                }
+	            
+	         3rd Output
+                  Grade C
+	
+	           4th Programm
+	        for (int i = 1; i <= 20; i++) {
+	            if (i == 10) {
+	                continue; 
+	            }
+	            System.out.println(i);
+	            if (i == 15) {
+	                break; 
+	            }
+	        }
+	    }
+
+                4th Output
+                1
+                2
+                3
+                4
+                5
+                6
+                7
+                8
+                9
+                11
+                12
+                13
+                14
+                15
+         
+
+                    Programm5  
+	               {
+		        System.out.println("Capital Alphabets:");
+		        for (char ch = 'A'; ch <= 'Z'; ch++) {
+		            System.out.print(ch + " ");
+		        }
+		        
+		        System.out.println("\n\nSmall Alphabets:");
+		        for (char ch = 'a'; ch <= 'z'; ch++) {
+		            System.out.print(ch + " ");
+		        }
+		    }
+		}
+                
+    
+		// TODO Auto-generated method stub
+             }
+
+               package basicmodule2;
+
+               public class Practise3 {
+
+	       public static void main(String[] args) {
+		
+		        System.out.println("Capital Alphabets:");
+		        for (char ch = 'A'; ch <= 'Z'; ch++) {
+		            System.out.print(ch + " ");
+		        }
+		        
+		        System.out.println("\n\nSmall Alphabets:");
+		        for (char ch = 'a'; ch <= 'z'; ch++) {
+		            System.out.print(ch + " ");
+		        }
+		    }
+		
+		// TODO Auto-generated method stub
+
+	}
+         5th Output
+         Capital Alphabets:
+         A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+
+          Small Alphabets:
+         a b c d e f g h i j k l m n o p q r s t u v w x y z
