@@ -1,0 +1,62 @@
+package vinu;
+public class Labclass {
+public static void main(String[] args) {
+		// TODO Auto-generated constructor stub
+		//Q .1)print hello i am at Anudip foundation
+	System.out.println();
+		System.out.println("Hello I am at Anudip Foundation");
+		
+		//Q.2)demonstrate data type
+		System.out.println();
+		byte b = 125;
+		System.out.println(b);
+		
+		Short s = 12345;
+		System.out.println(s);
+		
+		int i = 12345;
+		System.out.println(i);
+		
+		long l = 6787656744l;
+		System.out.println(l);
+		
+		char ch = 'b';
+		System.out.println(ch);
+		
+		float f = 1234567889f;
+		System.out.println(f);
+		
+		double d = 1235516.2626265262;
+		System.out.println(d);
+		
+		boolean b1 = false;
+		System.out.println(b1);
+		
+		//Q.3)  add,subtract, divide, multiply ,2 no
+		System.out.println();
+		System.out.println(2+2);
+		System.out.println(2-2);
+		System.out.println(2/2);
+		System.out.println(2*2);
+		
+		//Q.4)print 1 to 10 no
+		System.out.println();
+	
+		System.out.println("1 to 10 numbers");
+		for (i=1;i<=10;i++)
+		{
+			System.out.println(i);
+		}
+		
+		//Q.5) 5 name array 
+		System.out.println();
+		System.out.println("5) Names");
+		String[] names= {"Snehal","Harasada","Harshal","Shobha","Balasaheb"};
+		for (String name:names)
+		{
+			System.out.println(name);
+		}
+		
+		    }
+
+	
